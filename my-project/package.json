@@ -1,0 +1,35 @@
+{
+  "name": "my-custom-pkg-name",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi application",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "@strapi/strapi": "0.0.0-experimental.983360e71fc84f5034f80a8a4aeed4cd267981de",
+    "@strapi/plugin-users-permissions": "0.0.0-experimental.983360e71fc84f5034f80a8a4aeed4cd267981de",
+    "@strapi/plugin-i18n": "0.0.0-experimental.983360e71fc84f5034f80a8a4aeed4cd267981de",
+    "@strapi/plugin-cloud": "0.0.0-experimental.983360e71fc84f5034f80a8a4aeed4cd267981de",
+    "better-sqlite3": "8.6.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-router-dom": "5.3.4",
+    "styled-components": "5.3.3"
+  },
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "strapi": {
+    "uuid": "19669655-3ac6-4d45-8a75-215abdd1cb55"
+  },
+  "engines": {
+    "node": ">=18.0.0 <=20.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}
