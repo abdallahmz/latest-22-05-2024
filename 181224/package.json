@@ -1,5 +1,5 @@
 {
-  "name": "latest-19-nov-2024",
+  "name": "181224",
   "version": "0.1.0",
   "private": true,
   "description": "A Strapi application",
@@ -11,9 +11,9 @@
     "strapi": "strapi"
   },
   "dependencies": {
-    "@strapi/plugin-cloud": "5.4.0",
-    "@strapi/plugin-users-permissions": "5.4.0",
-    "@strapi/strapi": "5.4.0",
+    "@strapi/plugin-cloud": "5.5.2",
+    "@strapi/plugin-users-permissions": "5.5.2",
+    "@strapi/strapi": "5.5.2",
     "better-sqlite3": "11.3.0",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
@@ -31,7 +31,6 @@
     "npm": ">=6.0.0"
   },
   "strapi": {
-    "uuid": "bd83312e-42a8-427e-b102-f548640304c5"
-  },
-  "packageManager": "yarn@4.1.1+sha224.00f08619463229f8ba40c4ee90e8c2e4ced1f11c3115c26f3b98432e"
+    "uuid": "0daa4b23-f836-42d5-9fa8-2143dafa061c"
+  }
 }
